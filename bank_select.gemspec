@@ -3,21 +3,22 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'bank_select/version'
 
-Gem::Specification.new do |spec|
-  spec.name          = "bank_select"
-  spec.version       = BankSelect::VERSION
-  spec.authors       = ["ruan brandao"]
-  spec.email         = ["ruan.bernardo@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
-  spec.license       = "MIT"
+Gem::Specification.new do |s|
+  s.name          = "bank_select"
+  s.version       = BankSelect::VERSION
+  s.authors       = ["ruan brandao"]
+  s.email         = ["ruan.bernardo@gmail.com"]
+  s.description   = %q{Gem para listar bancos e mostrá-los em um select de form html}
+  s.summary       = %q{Ferramenta com lista de bancos}
+  s.homepage      = ""
+  s.license       = "MIT"
 
-  spec.files         = `git ls-files`.split($/)
-  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
-  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
-  spec.require_paths = ["lib"]
+  s.files         = `git ls-files`.split($/)
+  s.executables   = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
+  s.test_files    = s.files.grep(%r{^(test|spec|features)/})
+  s.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.3"
-  spec.add_development_dependency "rake"
+  s.add_development_dependency "bundler", "~> 1.3"
+  s.add_development_dependency "rake"
+  s.add_development_dependency "rspec", "~> 2.6"
 end
