@@ -25,8 +25,8 @@ module ActionView
         tag.to_bank_select_tag(options, html_options)
       end
 
-      def bank_select_for_select(selected = nil)
-        values = ::BankSelect::LIST
+      def bank_options(selected = nil)
+        values = ::BankSelect::LIST.invert
 
 
         return options_for_select(values, selected)
