@@ -1,6 +1,6 @@
 # BankSelect
 
-TODO: Write a gem description
+A simple list for all bank names. (Originaly from Brazil bank names)
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    BANK_SELECT::LIST # return a hash with all Brazil bank in format (bank-code => bank-name)
 
 ## Contributing
 
