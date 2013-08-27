@@ -352,4 +352,5 @@ module BankSelect
 		"975" => "Banco Prime S.A."
 	}
 	BANK_CODE = LIST.invert.values unless const_defined?("BANK_CODE")
+	BANK_NAME = LIST.values unless const_defined?("BANK_NAME")
 end
