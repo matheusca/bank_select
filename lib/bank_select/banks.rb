@@ -351,4 +351,5 @@ module BankSelect
 		"972" => "972 - Banco Ourinvest S.A.",
 		"975" => "975 - Banco Prime S.A."
 	}
+	BANK_CODE = LIST.invert unless const_defined?("BANK_CODE")
 end
