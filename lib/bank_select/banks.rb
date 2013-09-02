@@ -1,22 +1,22 @@
 # encoding utf-8
 module BankSelect
 	LIST = {
+		"237" => "Banco Bradesco",
+		"341" => "Banco Itau S.A.",
+		"33" => "Banco Santander Banespa",
+		"1" => "Banco do Brasil S.A.",
+		"104" => "Caixa Economica Federal",
+		"399" => "Banco Hsbc Bank Brasil S.A",
+		"745" => "Banco Citibank S.A.",
 		"107" => "Banco Bbm S.A",
 		"318" => "Banco Bmg S.A.",
-		"237" => "Banco Bradesco",
 		"208" => "Banco Pactual S.A.",
-		"745" => "Banco Citibank S.A.",
-		"1" => "Banco do Brasil S.A.",
 		"41" => "Banco Do Est. Do Rio Grande Sul",
-		"399" => "Banco Hsbc Bank Brasil S.A",
-		"341" => "Banco Itau S.A.",
 		"623" => "Banco Panamericano S.A.",
 		"422" => "Banco Safra S.A.",
-		"33" => "Banco Santander Banespa",
 		"655" => "Banco Votorantim S.A.",
-		"104" => "Caixa Economica Federal",
 		"409" => "Unibanco - Uniao Bancos Brasileiros",
-
+		
 		"2" => "Banco Central Do Brasil",
 		"3" => "Banco Da Amazonia S A",
 		"4" => "Banco Do Nordeste Do Brasil S.",
